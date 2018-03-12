@@ -853,11 +853,11 @@ long gui_wps_show(void)
                 break;
 
             case ACTION_WPS_VOLUP:
-                global_settings.volume++;
+                global_settings.volume+=10;
                 vol_changed = true;
                 break;
             case ACTION_WPS_VOLDOWN:
-                global_settings.volume--;
+                global_settings.volume-=10;
                 vol_changed = true;
                 break;
             /* fast forward

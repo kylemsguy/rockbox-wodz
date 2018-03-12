@@ -364,7 +364,7 @@ static bool gui_syncquickscreen_run(struct gui_quickscreen * qs, int button_ente
         if ((button == button_enter) && can_quit)
             break;
 
-        if (button == ACTION_STD_CANCEL)
+        if (button == ACTION_STD_MENU)
             break;
     }
     /* Notify that we're exiting this screen */

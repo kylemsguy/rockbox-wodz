@@ -32,7 +32,8 @@ RUN apt-get update && \
 
 # Clone rockbox repository
 RUN cd /home/rb && \
-    git clone https://github.com/wodz/rockbox-wodz.git
+    git clone https://github.com/kylemsguy/rockbox-wodz.git
+    #git clone https://github.com/wodz/rockbox-wodz.git
 
 # Build cross toolchain (It takes quite long)
 RUN cd /home/rb/rockbox-wodz && \
